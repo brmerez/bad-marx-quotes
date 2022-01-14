@@ -27,7 +27,27 @@
         "Olavo de Carvalho",
         "Hegel",
         "Geraldo Alckmin",
-        "João Dória"
+        "João Dória",
+        "Bakunin",
+        "Kropotkin",
+        "Proudhon",
+        "Paulo Coelho",
+        "Haddad",
+        "Dilma",
+        "Tite",
+        "Ronaldo Fenômeno",
+        "Putin",
+        "Romero Britto",
+        "Nicolas Maduro",
+        "Hugo Chavez",
+        "Fidel Castro",
+        "Che Guevara",
+        "Mauro Iasi",
+        "José Paulo Netto",
+        "Craque Neto",
+        "Edilson Capetinha",
+        "Baianinho de Mauá",
+        "Kautsky"
     ],
     "concepts":{
         "masc":[
@@ -70,7 +90,7 @@
             "trabalho",
             "marxismo-leninismo",
             "poliamor",
-            "meio de produção"
+            "imperialismo"
         ],
         "fem":[
             "revolução",
@@ -121,7 +141,10 @@
             "bolchefitness",
             "poligâmico",
             "monogâmico",
-            "com valores cristãos"
+            "com valores cristãos",
+            "de corno",
+            "pós-moderno",
+            "cachaceiro"
 
         ],
         "fem":[
@@ -138,7 +161,8 @@
             "moderna",
             "poligâmica",
             "monogâmica",
-            "com valores cristãos"
+            "com valores cristãos",
+            "pós-moderna"
 
         ]
     }
