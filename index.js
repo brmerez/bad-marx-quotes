@@ -1,7 +1,7 @@
 require("dotenv").config();
 const getFrase = require("./src/phrase");
 const { client, tweet } = require("./src/twitter");
-const INTERVALO = 1800000 // meia hora
+const INTERVALO = 10000 // meia hora 1800000
 
 // Manda um tweet a cada 30 minutos
 async function Main() {
