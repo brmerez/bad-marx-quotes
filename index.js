@@ -14,12 +14,12 @@ function sendTweet(){
 }
 
 app.get("/", (req, res)=>{
-  res.send(`<h1>${getFrase}</h1>`);
+  res.send(`<h1>${getFrase()}</h1>`);
 })
 
 app.get("/mandalavai", (req, res)=>{
   sendTweet();
-  res.send(`<h1>${getFrase}</h1>`);
+  res.send(`<h1>${getFrase()}</h1>`);
 });
 
 setInterval(sendTweet, INTERVALO);
