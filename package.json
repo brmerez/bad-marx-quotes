@@ -1,0 +1,16 @@
+{
+  "name": "badmarxquotes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "corridão",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "sentencer": "^0.2.1",
+    "twitter": "^1.7.1"
+  }
+}
