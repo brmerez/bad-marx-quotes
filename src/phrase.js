@@ -1,5 +1,5 @@
-const words = require("./src/params/words.json");
-const templates = require("./src/params/templates.json");
+const words = require("./params/words.json");
+const templates = require("./params/templates.json");
 const Sentencer = require("sentencer");
 
 const pick = arr => arr[Math.floor(Math.random() * arr.length)]; // Função de utilidade pra retornar um elemento aleatório de um array

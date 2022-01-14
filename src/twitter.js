@@ -8,6 +8,6 @@ const client = new Twitter({
   access_token_secret: process.env.ACCESS_TOKEN_SECRET
 })
 
-const tweet = text => client.post('statuses/update', {status: phrase}, (error, tweet, response) => if(error) throw error)
+const tweet = text => client.post('statuses/update', {status: text}, (error, tweet, response) => {if(error) throw error});
 
 module.exports = { client, tweet }
