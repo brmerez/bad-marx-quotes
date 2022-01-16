@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 5000
 
-const INTERVALO = 1800000 // meia hora 1800000
+const INTERVALO = 3600000 // meia hora 1800000
 
 function sendTweet(){
   const frase = getFrase();
