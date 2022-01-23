@@ -54,5 +54,9 @@
     "'A história se repete: primeiro como {{concepts}} depois como {{concepts}}'\n - {{people}}, {{date}}",
     "'Se a classe {{fadjectives}} tudo produz, a ela tudo pertence!' - {{people}}, {{date}}",
     "'{{phrase}}' \n- {{people}}, quando perguntado sobre {{concepts}}",
-    "'{{phrase}}' \n- {{people}}, {{date}}"
+    "'{{phrase}}' \n- {{people}}, {{date}}",
+    "Entrevistador: 'Você é de direita ou de esquerda?'\n{{people}}: 'o pai eh ambidestro clareou chutou'",
+    "{{phrase}}\n- {{people}}",
+    "Você sabia?\nAs últimas palavras de {{people}} em seu leito de morte foram '{{phrase}}'",
+    "'{{phrase}}'\n - {{people}}, discursando frente às massas após a revolução."
 ]
