@@ -14,7 +14,8 @@ Sentencer.configure({
         adjectives: () => pick(pick([words.adjectives.fem, words.adjectives.masc])),
         madjectives: () => pick(words.adjectives.masc),
         fadjectives: () => pick(words.adjectives.fem),
-        date: () => `${Math.floor(Math.random() * (1985 - 1868) + 1868)}`
+        date: () => `${Math.floor(Math.random() * (1985 - 1868) + 1868)}`,
+        phrase: () => pick(words.phrases)
     }
 });
 
