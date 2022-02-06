@@ -21,4 +21,4 @@ Sentencer.configure({
 
 const getFrase = () => Sentencer.make(pick(templates));
 
-module.exports = getFrase
+module.exports = {getFrase, pick}
