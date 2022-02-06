@@ -10,7 +10,7 @@ const words = require("./src/params/words.json");
 const INTERVALO = 3600000 // meia hora 1800000
 
 const getAIFrase = async () => {
-   const res = await ai.createCompletion("text-davinci-001", { prompt: `crie um tweet baseado nos termos ${pick(pick([words.concepts.masc, words.concepts.fem]))} e ${pick(words.people)}`, max_tokens: 64 });
+   const res = await ai.createCompletion("text-davinci-001", { prompt: `crie um tweet baseado nos termos ${pick(pick([words.concepts.masc, words.concepts.fem]))}, ${pick(pick([words.adjectives.masc, words.adjectives.fem]))}  e ${pick(words.people)}`, max_tokens: 64 });
    return res.data;
 }
 
